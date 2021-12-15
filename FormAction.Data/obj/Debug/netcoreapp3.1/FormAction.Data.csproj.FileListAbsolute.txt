@@ -1,0 +1,4 @@
+D:\WorkspaceMaster\FormActions\FormAction.Data\bin\Debug\netcoreapp3.1\FormActions.Domain.dll
+D:\WorkspaceMaster\FormActions\FormAction.Data\obj\Debug\netcoreapp3.1\FormAction.Data.csprojAssemblyReference.cache
+D:\WorkspaceMaster\FormActions\FormAction.Data\obj\Debug\netcoreapp3.1\FormAction.Data.AssemblyInfoInputs.cache
+D:\WorkspaceMaster\FormActions\FormAction.Data\obj\Debug\netcoreapp3.1\FormAction.Data.AssemblyInfo.cs

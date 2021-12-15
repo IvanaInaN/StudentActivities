@@ -1,16 +1,17 @@
+using ComplexApp.Services.CQRS.Queries.GetAllFormActionsQuery;
+using FormActions.Services.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using MediatR;
+using System.Reflection;
+using FormActions.Data;
+using FormActions.Domain.Repositories;
+using FormActions.Data.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 namespace FormActions
 {
@@ -26,6 +27,17 @@ namespace FormActions
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ExamRoomContext>(options =>
+               options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddScoped<IFormActionRepository, FormActionRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            services.AddAutoMapper(typeof(MapperFormAction));
+
+            services.AddMediatR(typeof(Startup));
+
+            services.AddMediatR(typeof(GetAllFormActionsQueryHandler).GetTypeInfo().Assembly);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -44,10 +56,7 @@ namespace FormActions
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FormActions v1"));
             }
 
-            app.UseHttpsRedirection();
-
             app.UseRouting();
-
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
