@@ -12,6 +12,7 @@ using FormActions.Data;
 using FormActions.Domain.Repositories;
 using FormActions.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
+using FormActions.Web.GlobalErrorHandling;
 
 namespace FormActions
 {
@@ -44,6 +45,7 @@ namespace FormActions
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FormActions", Version = "v1" });
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -56,8 +58,11 @@ namespace FormActions
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FormActions v1"));
             }
 
+            app.UseMiddleware<CustomExceptionMiddleware>();
             app.UseRouting();
             app.UseAuthorization();
+            app.UseCors(options =>
+                options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseEndpoints(endpoints =>
             {

@@ -17,10 +17,11 @@ namespace FormActions.Data.Repositories
 
         public async Task RemoveById(int formActionId)
         {
-            var actions = await _context.FormActions
+            var action =  _context.FormActions
                 .Where(x => x.Id == formActionId)
-                .ToListAsync();
-            _context.FormActions.Remove(actions.FirstOrDefault());
+                .FirstOrDefault();
+
+            _context.FormActions.Remove(action);
         }
 
         public async Task<List<Domain.Models.FormAction>> GetFormActionsAsync()
