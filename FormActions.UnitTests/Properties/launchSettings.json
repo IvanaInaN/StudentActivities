@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FormActions.UnitTests": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

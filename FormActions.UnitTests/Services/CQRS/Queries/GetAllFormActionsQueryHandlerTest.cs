@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
 using ComplexApp.Services.CQRS.Queries.GetAllFormActionsQuery;
+using FormActions.Domain.Models;
 using FormActions.Domain.Repositories;
 using FormActions.Services.CQRS.Queries.GetAllFormActionsQuery;
+using FormActions.Structures.Dtos;
 using Moq;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
@@ -17,8 +20,8 @@ namespace FormActions.UnitTests.Services.CQRS.Queries
 
         public GetAllFormActionsQueryHandlerTest()
         {
-            _formActionRepository = new Mock<IFormActionRepository>();
-            _formActionRepository = new Mock<IFormActionRepository>();
+            _formActionRepository = new Mock<IFormActionRepository>(MockBehavior.Strict);
+            _mapper = new Mock<IMapper>(MockBehavior.Strict);
             _handler = new GetAllFormActionsQueryHandler(_formActionRepository.Object, _mapper.Object);
         }
 
@@ -28,6 +31,16 @@ namespace FormActions.UnitTests.Services.CQRS.Queries
             // Arrange
 
             var request = new GetAllFormActionQueryRequest();
+
+            var result = new List<FormAction>();
+
+            var formActions = new List<FormActionDto>();
+
+            _formActionRepository.Setup(x => x.GetFormActionsAsync())
+                .Returns(Task.FromResult(result));
+
+            _mapper.Setup(x => x.Map<List<FormAction>, List<FormActionDto>>(result))
+                .Returns(formActions);
 
             // Act
 
