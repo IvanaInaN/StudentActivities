@@ -7,6 +7,6 @@ namespace FormActions.Domain.Repositories
     public interface IFormActionRepository
     {
         Task<List<FormAction>> GetFormActionsAsync();
-        Task RemoveById(int formActionId);
+        void RemoveById(int formActionId);
     }
 }

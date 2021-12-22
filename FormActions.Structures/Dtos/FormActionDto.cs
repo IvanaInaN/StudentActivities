@@ -9,6 +9,7 @@ namespace FormActions.Structures.Dtos
         public int FormId { get; set; }
         public string Action { get; set; }
         public DateTime ActionOn { get; set; }
+        public int WaitingTimeMin { get; set; }
         public CandidateDto Candidate { get; set; }
         public FormDto Form { get; set; }
     }

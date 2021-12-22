@@ -15,13 +15,11 @@ namespace FormActions.Data.Repositories
             _context = context;
         }
 
-        public async Task RemoveById(int formActionId)
+        public void RemoveById(int formActionId)
         {
-            var action =  _context.FormActions
-                .Where(x => x.Id == formActionId)
-                .FirstOrDefault();
-
-            _context.FormActions.Remove(action);
+            var a = _context.FormActions.Find(formActionId);
+            _context.Remove(a);
+            _context.SaveChanges();
         }
 
         public async Task<List<Domain.Models.FormAction>> GetFormActionsAsync()

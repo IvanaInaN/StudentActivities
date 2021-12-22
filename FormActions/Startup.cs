@@ -13,6 +13,7 @@ using FormActions.Domain.Repositories;
 using FormActions.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using FormActions.Web.GlobalErrorHandling;
+using System.Text.Json.Serialization;
 
 namespace FormActions
 {
@@ -45,6 +46,9 @@ namespace FormActions
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FormActions", Version = "v1" });
             });
+
+            services.AddControllers().AddJsonOptions(x =>
+                x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
 
         }
 

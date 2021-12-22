@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using FormActions.Domain.Models;
 using FormActions.Structures.Dtos;
+using System;
 using System.Collections.Generic;
 
 namespace FormActions.Services.AutoMapper
@@ -17,9 +18,15 @@ namespace FormActions.Services.AutoMapper
             CreateMap<FormDto, Form>();
             CreateMap<List<Form>, List<FormDto>>();
 
-            CreateMap<FormAction, FormActionDto>();
+            CreateMap<FormAction, FormActionDto>()
+                .ForMember(des => des.WaitingTimeMin, x => x.MapFrom(src => CalculateWaitingTime(src.ActionOn)));
             CreateMap<FormActionDto, FormAction>();
-           // CreateMap<List<FormAction>, List<FormActionDto>>();
+        }
+
+        private int CalculateWaitingTime(DateTime start)
+        {
+            var end = DateTime.UtcNow;
+            return (int)end.Subtract(start).TotalMinutes;
         }
     }
 }
