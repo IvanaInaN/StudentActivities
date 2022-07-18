@@ -35,7 +35,7 @@ namespace FormActions.Controllers
                 FormActionId = id
             };
 
-            var response = _mediator.Send(request);
+            var response = await _mediator.Send(request);
 
             return Ok(response);
         }
