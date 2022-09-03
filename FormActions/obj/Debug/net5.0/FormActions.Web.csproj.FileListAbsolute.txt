@@ -5,7 +5,6 @@ D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Web.deps
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Web.runtimeconfig.json
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Web.runtimeconfig.dev.json
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Web.dll
-D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\ref\FormActions.Web.dll
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Web.pdb
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\MediatR.dll
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\Microsoft.OpenApi.dll
@@ -18,7 +17,6 @@ D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Structur
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Services.pdb
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Domain.pdb
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Structures.pdb
-D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.csprojAssemblyReference.cache
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.GeneratedMSBuildEditorConfig.editorconfig
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.AssemblyInfoInputs.cache
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.AssemblyInfo.cs
@@ -26,7 +24,6 @@ D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.cspr
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.MvcApplicationPartsAssemblyInfo.cs
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.MvcApplicationPartsAssemblyInfo.cache
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\staticwebassets\FormActions.Web.StaticWebAssets.Manifest.cache
-D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\staticwebassets\FormActions.Web.StaticWebAssets.xml
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\scopedcss\bundle\FormActions.Web.styles.css
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.RazorTargetAssemblyInfo.cache
 D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.csproj.CopyComplete
@@ -78,3 +75,6 @@ D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\runtimes\win\lib\net
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Data.dll
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\FormActions.Data.pdb
+D:\WorkspaceMaster\FormActions\FormActions\bin\Debug\net5.0\ref\FormActions.Web.dll
+D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\FormActions.Web.csprojAssemblyReference.cache
+D:\WorkspaceMaster\FormActions\FormActions\obj\Debug\net5.0\staticwebassets\FormActions.Web.StaticWebAssets.xml

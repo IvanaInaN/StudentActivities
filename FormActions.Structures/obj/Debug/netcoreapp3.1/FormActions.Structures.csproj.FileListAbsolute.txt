@@ -1,9 +1,9 @@
 D:\WorkspaceMaster\FormActions\FormActions.Structures\bin\Debug\netcoreapp3.1\FormActions.Structures.deps.json
 D:\WorkspaceMaster\FormActions\FormActions.Structures\bin\Debug\netcoreapp3.1\FormActions.Structures.dll
 D:\WorkspaceMaster\FormActions\FormActions.Structures\bin\Debug\netcoreapp3.1\FormActions.Structures.pdb
-D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.csprojAssemblyReference.cache
 D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.AssemblyInfoInputs.cache
 D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.AssemblyInfo.cs
 D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.csproj.CoreCompileInputs.cache
 D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.dll
 D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.pdb
+D:\WorkspaceMaster\FormActions\FormActions.Structures\obj\Debug\netcoreapp3.1\FormActions.Structures.csprojAssemblyReference.cache

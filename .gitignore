@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FormActions/obj/Debug/net5.0/FormActions.Web.csproj.BuildWithSkipAnalyzers
+/FormActions.Data/obj/Debug/netcoreapp3.1/FormActions.Data.csproj.BuildWithSkipAnalyzers
+/FormActions.Domain/obj/Debug/netcoreapp3.1/FormActions.Domain.csproj.BuildWithSkipAnalyzers
+/FormActions.UnitTests/obj/Debug/netcoreapp3.1/FormActions.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/FormActions.UnitTests/obj/Debug/netcoreapp3.1/FormActions.UnitTests.csproj.AssemblyReference.cache
+/FormActions.Structures/obj/Debug/netcoreapp3.1/FormActions.Structures.csproj.BuildWithSkipAnalyzers
+/FormActions.Services/obj/Debug/netcoreapp3.1/FormActions.Services.csproj.BuildWithSkipAnalyzers
+/.vs/FormActions/v17/.futdcache.v1

@@ -1,5 +1,4 @@
 D:\WorkspaceMaster\FormActions\FormActions.Data\bin\Debug\netcoreapp3.1\FormActions.Domain.dll
-D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.csprojAssemblyReference.cache
 D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.AssemblyInfoInputs.cache
 D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.AssemblyInfo.cs
 D:\WorkspaceMaster\FormActions\FormActions.Data\bin\Debug\netcoreapp3.1\FormActions.Data.deps.json
@@ -13,3 +12,4 @@ D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActi
 D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.dll
 D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.pdb
 D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.genruntimeconfig.cache
+D:\WorkspaceMaster\FormActions\FormActions.Data\obj\Debug\netcoreapp3.1\FormActions.Data.csprojAssemblyReference.cache
