@@ -1,4 +1,3 @@
-using ComplexApp.Services.CQRS.Queries.GetAllFormActionsQuery;
 using FormActions.Services.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -14,6 +13,7 @@ using FormActions.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 using FormActions.Web.GlobalErrorHandling;
 using System.Text.Json.Serialization;
+using FormActions.Services.CQRS.Queries.GetAllFormActionsQuery;
 
 namespace FormActions
 {
