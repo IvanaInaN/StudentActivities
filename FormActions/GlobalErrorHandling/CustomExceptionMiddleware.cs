@@ -3,7 +3,7 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace FormActions.Web.GlobalErrorHandling
+namespace StudentActivities.Web.GlobalErrorHandling
 {
     public class CustomExceptionMiddleware
     {

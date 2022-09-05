@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "57EwuikSCRWTI7kwoea5NfbEEmUtGRq9tZ32SjvyBze5N6LzZAk8pks+wH/GfW+sEAuacuCagmNhJUJmLgMUnQ==",
+  "dgSpecHash": "iKd0yKmtilQPSlrRHUTUHXaqMjdUKYnTPziSjXsvSL9RODJKWt49qikdsHs5Wd1j7cKrVeyhMGt0I4iDCgnfQg==",
   "success": true,
-  "projectFilePath": "D:\\WorkspaceMaster\\FormActions\\FormActions\\FormActions.Web.csproj",
+  "projectFilePath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions\\StudentActivities.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

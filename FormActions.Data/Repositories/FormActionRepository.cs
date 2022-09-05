@@ -1,33 +1,34 @@
-﻿using FormActions.Domain.Repositories;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using StudentsActivities.Data;
+using StudentActivities.Domain.Repositories;
 
-namespace FormActions.Data.Repositories
+namespace StudentsActivities.Data.Repositories
 {
     public class FormActionRepository : IFormActionRepository
     {
-        private readonly ExamRoomContext _context;
+        private readonly StudentActivityContext _context;
 
-        public FormActionRepository(ExamRoomContext context)
+        public FormActionRepository(StudentActivityContext context)
         {
             _context = context;
         }
 
         public void RemoveById(int formActionId)
         {
-            var a = _context.FormActions.Find(formActionId);
+            var a = _context.StudentActivities.Find(formActionId);
             _context.Remove(a);
             _context.SaveChanges();
         }
 
-        public async Task<List<Domain.Models.FormAction>> GetFormActionsAsync()
+        public async Task<List<StudentActivities.Domain.Models.StudentActivity>> GetStudentActivitiesAsync()
         {
-            return await _context.FormActions
-                 .Include(x => x.Candidate)
+            return await _context.StudentActivities
+                 .Include(x => x.Student)
                  .Include(x => x.Form)
-                 .Where(x => x.Candidate.Active == 1)
+                 .Where(x => x.Student.Active == 1)
                  .Where(x => x.Form.Active == 1)
              .ToListAsync();
         }

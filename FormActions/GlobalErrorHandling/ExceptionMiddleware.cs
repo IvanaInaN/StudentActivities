@@ -2,7 +2,7 @@
 using System;
 using System.Net;
 
-namespace FormActions.Web.GlobalErrorHandling
+namespace StudentActivities.Web.GlobalErrorHandling
 {
     public class HttpStatusCodeException : Exception
     {
@@ -11,13 +11,13 @@ namespace FormActions.Web.GlobalErrorHandling
 
         public HttpStatusCodeException(HttpStatusCode statusCode)
         {
-            this.StatusCode = statusCode;
+            StatusCode = statusCode;
         }
 
         public HttpStatusCodeException(HttpStatusCode statusCode, string message)
             : base(message)
         {
-            this.StatusCode = statusCode;
+            StatusCode = statusCode;
         }
 
         public HttpStatusCodeException(HttpStatusCode statusCode, Exception inner)
@@ -26,7 +26,7 @@ namespace FormActions.Web.GlobalErrorHandling
         public HttpStatusCodeException(HttpStatusCode statusCode, JObject errorObject)
             : this(statusCode, errorObject.ToString())
         {
-            this.ContentType = @"application/json";
+            ContentType = @"application/json";
         }
 
     }

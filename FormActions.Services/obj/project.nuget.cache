@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8z4faRXQCWHA1nwg8zF9OYamZ0Ci/khLuCJBgBpKspprasR2Eeavq96Y+dBYGLHojb0Hs2v24isxOOfQ6HeNqw==",
+  "dgSpecHash": "9+EB5kPpUDxzyFvgZ3KB/dmzzybuSMG/Nh8wOIEThq7l6OK76bhUH6rFWtTRkwyFfU8q4DNdaG7L4fyGGXK6hg==",
   "success": true,
-  "projectFilePath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Services\\FormActions.Services.csproj",
+  "projectFilePath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Services\\StudentActivities.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",

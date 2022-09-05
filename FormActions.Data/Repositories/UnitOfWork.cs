@@ -1,13 +1,17 @@
-﻿using FormActions.Domain.Repositories;
+﻿using StudentActivities.Domain.Repositories;
+using StudentsActivities.Data;
+using System;
+using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace FormActions.Data.Repositories
+namespace StudentsActivities.Data.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly ExamRoomContext _context;
+        private readonly StudentActivityContext _context;
 
-        public UnitOfWork(ExamRoomContext context)
+        public UnitOfWork(StudentActivityContext context)
         {
             _context = context;
         }

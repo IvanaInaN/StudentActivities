@@ -10,10 +10,10 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "FluentAssertions": "6.2.0",
-          "FormActions.Domain": "1.0.0",
-          "FormActions.Services": "1.0.0",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "Moq": "4.16.1",
+          "StudentActivities.Domain": "1.0.0",
+          "StudentActivities.Services": "1.0.0",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.3"
         },
@@ -1227,25 +1227,25 @@
         }
       },
       "xunit.runner.visualstudio/2.4.3": {},
-      "FormActions.Domain/1.0.0": {
+      "StudentActivities.Domain/1.0.0": {
         "runtime": {
-          "FormActions.Domain.dll": {}
+          "StudentActivities.Domain.dll": {}
         }
       },
-      "FormActions.Services/1.0.0": {
+      "StudentActivities.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "FormActions.Domain": "1.0.0",
-          "FormActions.Structures": "1.0.0",
-          "MediatR": "9.0.0"
+          "MediatR": "9.0.0",
+          "StudentActivities.Domain": "1.0.0",
+          "StudentActivities.Structures": "1.0.0"
         },
         "runtime": {
-          "FormActions.Services.dll": {}
+          "StudentActivities.Services.dll": {}
         }
       },
-      "FormActions.Structures/1.0.0": {
+      "StudentActivities.Structures/1.0.0": {
         "runtime": {
-          "FormActions.Structures.dll": {}
+          "StudentActivities.Structures.dll": {}
         }
       }
     }
@@ -1991,17 +1991,17 @@
       "path": "xunit.runner.visualstudio/2.4.3",
       "hashPath": "xunit.runner.visualstudio.2.4.3.nupkg.sha512"
     },
-    "FormActions.Domain/1.0.0": {
+    "StudentActivities.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "FormActions.Services/1.0.0": {
+    "StudentActivities.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "FormActions.Structures/1.0.0": {
+    "StudentActivities.Structures/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\FormActions.Structures.csproj",
-      "projectName": "FormActions.Structures",
-      "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\FormActions.Structures.csproj",
+      "projectUniqueName": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Structures\\StudentActivities.Structures.csproj",
+      "projectName": "StudentActivities.Structures",
+      "projectPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Structures\\StudentActivities.Structures.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\obj\\",
+      "outputPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Structures\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",

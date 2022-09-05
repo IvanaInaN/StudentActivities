@@ -42,24 +42,24 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "FormActions.Domain/1.0.0": {
+      "StudentActivities.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/FormActions.Domain.dll": {}
+          "bin/placeholder/StudentActivities.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FormActions.Domain.dll": {}
+          "bin/placeholder/StudentActivities.Domain.dll": {}
         }
       },
-      "FormActions.Structures/1.0.0": {
+      "StudentActivities.Structures/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/FormActions.Structures.dll": {}
+          "bin/placeholder/StudentActivities.Structures.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FormActions.Structures.dll": {}
+          "bin/placeholder/StudentActivities.Structures.dll": {}
         }
       }
     }
@@ -222,23 +222,23 @@
         "version.txt"
       ]
     },
-    "FormActions.Domain/1.0.0": {
+    "StudentActivities.Domain/1.0.0": {
       "type": "project",
-      "path": "../FormActions.Domain/FormActions.Domain.csproj",
-      "msbuildProject": "../FormActions.Domain/FormActions.Domain.csproj"
+      "path": "../FormActions.Domain/StudentActivities.Domain.csproj",
+      "msbuildProject": "../FormActions.Domain/StudentActivities.Domain.csproj"
     },
-    "FormActions.Structures/1.0.0": {
+    "StudentActivities.Structures/1.0.0": {
       "type": "project",
-      "path": "../FormActions.Structures/FormActions.Structures.csproj",
-      "msbuildProject": "../FormActions.Structures/FormActions.Structures.csproj"
+      "path": "../FormActions.Structures/StudentActivities.Structures.csproj",
+      "msbuildProject": "../FormActions.Structures/StudentActivities.Structures.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "AutoMapper >= 10.1.1",
-      "FormActions.Domain >= 1.0.0",
-      "FormActions.Structures >= 1.0.0",
-      "MediatR >= 9.0.0"
+      "MediatR >= 9.0.0",
+      "StudentActivities.Domain >= 1.0.0",
+      "StudentActivities.Structures >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -247,11 +247,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkspaceMaster\\FormActions\\FormActions.Services\\FormActions.Services.csproj",
-      "projectName": "FormActions.Services",
-      "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Services\\FormActions.Services.csproj",
+      "projectUniqueName": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Services\\StudentActivities.Services.csproj",
+      "projectName": "StudentActivities.Services",
+      "projectPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Services\\StudentActivities.Services.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Services\\obj\\",
+      "outputPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -268,11 +268,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj": {
-              "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj"
+            "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Domain\\StudentActivities.Domain.csproj": {
+              "projectPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Domain\\StudentActivities.Domain.csproj"
             },
-            "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\FormActions.Structures.csproj": {
-              "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\FormActions.Structures.csproj"
+            "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Structures\\StudentActivities.Structures.csproj": {
+              "projectPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Structures\\StudentActivities.Structures.csproj"
             }
           }
         }

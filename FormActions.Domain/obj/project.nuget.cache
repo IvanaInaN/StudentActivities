@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GbKG0C9MIPdeIIcC0fUHd4rBToJekoIyIytFOHTTPEm+J/2VXL/5nNeZVnJRl7s2u6tP7veLjtTt+RWDHc45Gw==",
+  "dgSpecHash": "teAL7wX3es6MPXOPJdOmS5KybdaL8qk5d/4vKp1yJHPyd3dSfKhOqFbJLRFbpiBuJu5pQepjlKNiJSzFLgjbYA==",
   "success": true,
-  "projectFilePath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj",
+  "projectFilePath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Domain\\StudentActivities.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

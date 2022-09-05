@@ -4,12 +4,12 @@
     "D:\\WorkspaceMaster\\FormActions\\FormActions.Services\\FormActions.Services.csproj": {}
   },
   "projects": {
-    "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj": {
+    "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\StudentActivities.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj",
-        "projectName": "FormActions.Domain",
-        "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj",
+        "projectUniqueName": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\StudentActivities.Domain.csproj",
+        "projectName": "StudentActivities.Domain",
+        "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\StudentActivities.Domain.csproj",
         "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
         "outputPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj": {
-                "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj"
+              "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\StudentActivities.Domain.csproj": {
+                "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\StudentActivities.Domain.csproj"
               },
               "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\FormActions.Structures.csproj": {
                 "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Structures\\FormActions.Structures.csproj"

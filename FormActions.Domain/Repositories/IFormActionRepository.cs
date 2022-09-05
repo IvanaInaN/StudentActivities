@@ -1,12 +1,12 @@
-﻿using FormActions.Domain.Models;
+﻿using StudentActivities.Domain.Models;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace FormActions.Domain.Repositories
+namespace StudentActivities.Domain.Repositories
 {
     public interface IFormActionRepository
     {
-        Task<List<FormAction>> GetFormActionsAsync();
-        void RemoveById(int formActionId);
+        Task<List<StudentActivity>> GetStudentActivitiesAsync();
+        void RemoveById(int studentActivityId);
     }
 }

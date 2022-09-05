@@ -27,11 +27,11 @@
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
-          "FormActions.Data": "1.0.0",
-          "FormActions.Services": "1.0.0",
           "MediatR": "9.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
+          "StudentActivities.Services": "1.0.0",
+          "StudentsActivities.Data": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
@@ -1501,48 +1501,48 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "FormActions.Data/1.0.0": {
-        "dependencies": {
-          "EntityFramework": "6.4.4",
-          "FormActions.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.9",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.9"
-        },
+      "StudentActivities.Domain/1.0.0": {
         "runtime": {
-          "FormActions.Data.dll": {}
+          "StudentActivities.Domain.dll": {}
         },
         "compile": {
-          "FormActions.Data.dll": {}
+          "StudentActivities.Domain.dll": {}
         }
       },
-      "FormActions.Domain/1.0.0": {
-        "runtime": {
-          "FormActions.Domain.dll": {}
-        },
-        "compile": {
-          "FormActions.Domain.dll": {}
-        }
-      },
-      "FormActions.Services/1.0.0": {
+      "StudentActivities.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
-          "FormActions.Domain": "1.0.0",
-          "FormActions.Structures": "1.0.0",
-          "MediatR": "9.0.0"
+          "MediatR": "9.0.0",
+          "StudentActivities.Domain": "1.0.0",
+          "StudentActivities.Structures": "1.0.0"
         },
         "runtime": {
-          "FormActions.Services.dll": {}
+          "StudentActivities.Services.dll": {}
         },
         "compile": {
-          "FormActions.Services.dll": {}
+          "StudentActivities.Services.dll": {}
         }
       },
-      "FormActions.Structures/1.0.0": {
+      "StudentActivities.Structures/1.0.0": {
         "runtime": {
-          "FormActions.Structures.dll": {}
+          "StudentActivities.Structures.dll": {}
         },
         "compile": {
-          "FormActions.Structures.dll": {}
+          "StudentActivities.Structures.dll": {}
+        }
+      },
+      "StudentsActivities.Data/1.0.0": {
+        "dependencies": {
+          "EntityFramework": "6.4.4",
+          "Microsoft.EntityFrameworkCore": "5.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.9",
+          "StudentActivities.Domain": "1.0.0"
+        },
+        "runtime": {
+          "StudentsActivities.Data.dll": {}
+        },
+        "compile": {
+          "StudentsActivities.Data.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -4016,22 +4016,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "FormActions.Data/1.0.0": {
+    "StudentActivities.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "FormActions.Domain/1.0.0": {
+    "StudentActivities.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "FormActions.Services/1.0.0": {
+    "StudentActivities.Structures/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "FormActions.Structures/1.0.0": {
+    "StudentsActivities.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

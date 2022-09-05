@@ -1,4 +1,3 @@
-using FormActions.Services.AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -7,15 +6,16 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MediatR;
 using System.Reflection;
-using FormActions.Data;
-using FormActions.Domain.Repositories;
-using FormActions.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
-using FormActions.Web.GlobalErrorHandling;
 using System.Text.Json.Serialization;
-using FormActions.Services.CQRS.Queries.GetAllFormActionsQuery;
+using StudentsActivities.Data;
+using StudentActivities.Domain.Repositories;
+using StudentActivities.Services.AutoMapper;
+using StudentsActivities.Data.Repositories;
+using StudentActivities.Web.GlobalErrorHandling;
+using StudentActivities.Services.CQRS.Queries.GetAllStudentActivitiesQuery;
 
-namespace FormActions
+namespace StudentActivities.Web
 {
     public class Startup
     {
@@ -29,7 +29,7 @@ namespace FormActions
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ExamRoomContext>(options =>
+            services.AddDbContext<StudentActivityContext>(options =>
                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddScoped<IFormActionRepository, FormActionRepository>();
@@ -39,7 +39,7 @@ namespace FormActions
 
             services.AddMediatR(typeof(Startup));
 
-            services.AddMediatR(typeof(GetAllFormActionsQueryHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(GetAllStudentActivitiesQueryHandler).GetTypeInfo().Assembly);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

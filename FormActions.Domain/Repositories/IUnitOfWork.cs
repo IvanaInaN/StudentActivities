@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace FormActions.Domain.Repositories
+namespace StudentActivities.Domain.Repositories
 {
     public interface IUnitOfWork
     {

@@ -1,0 +1,16 @@
+D:\WorkspaceMaster\FormActions\FormActions.Domain\bin\Debug\netcoreapp3.1\StudentActivities.Domain.deps.json
+D:\WorkspaceMaster\FormActions\FormActions.Domain\bin\Debug\netcoreapp3.1\StudentActivities.Domain.dll
+D:\WorkspaceMaster\FormActions\FormActions.Domain\bin\Debug\netcoreapp3.1\StudentActivities.Domain.pdb
+D:\WorkspaceMaster\FormActions\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.AssemblyInfoInputs.cache
+D:\WorkspaceMaster\FormActions\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.AssemblyInfo.cs
+D:\WorkspaceMaster\FormActions\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.csproj.CoreCompileInputs.cache
+D:\WorkspaceMaster\FormActions\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.dll
+D:\WorkspaceMaster\FormActions\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.pdb
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\bin\Debug\netcoreapp3.1\StudentActivities.Domain.deps.json
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\bin\Debug\netcoreapp3.1\StudentActivities.Domain.dll
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\bin\Debug\netcoreapp3.1\StudentActivities.Domain.pdb
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.AssemblyInfoInputs.cache
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.AssemblyInfo.cs
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.csproj.CoreCompileInputs.cache
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.dll
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.pdb

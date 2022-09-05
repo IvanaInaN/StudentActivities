@@ -1,6 +1,6 @@
 ﻿using System.Text.Json;
 
-namespace FormActions.Web.GlobalErrorHandling
+namespace StudentActivities.Web.GlobalErrorHandling
 {
     public class ErrorDetails
     {

@@ -456,14 +456,14 @@
           }
         }
       },
-      "FormActions.Domain/1.0.0": {
+      "StudentActivities.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/FormActions.Domain.dll": {}
+          "bin/placeholder/StudentActivities.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FormActions.Domain.dll": {}
+          "bin/placeholder/StudentActivities.Domain.dll": {}
         }
       }
     }
@@ -1505,18 +1505,18 @@
         "version.txt"
       ]
     },
-    "FormActions.Domain/1.0.0": {
+    "StudentActivities.Domain/1.0.0": {
       "type": "project",
-      "path": "../FormActions.Domain/FormActions.Domain.csproj",
-      "msbuildProject": "../FormActions.Domain/FormActions.Domain.csproj"
+      "path": "../FormActions.Domain/StudentActivities.Domain.csproj",
+      "msbuildProject": "../FormActions.Domain/StudentActivities.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "EntityFramework >= 6.4.4",
-      "FormActions.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.7",
-      "Microsoft.EntityFrameworkCore.Relational >= 5.0.7"
+      "Microsoft.EntityFrameworkCore.Relational >= 5.0.7",
+      "StudentActivities.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1525,11 +1525,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WorkspaceMaster\\FormActions\\FormActions.Data\\FormActions.Data.csproj",
-      "projectName": "FormActions.Data",
-      "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Data\\FormActions.Data.csproj",
+      "projectUniqueName": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Data\\StudentsActivities.Data.csproj",
+      "projectName": "StudentsActivities.Data",
+      "projectPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Data\\StudentsActivities.Data.csproj",
       "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-      "outputPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Data\\obj\\",
+      "outputPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1546,8 +1546,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj": {
-              "projectPath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Domain\\FormActions.Domain.csproj"
+            "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Domain\\StudentActivities.Domain.csproj": {
+              "projectPath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Domain\\StudentActivities.Domain.csproj"
             }
           }
         }

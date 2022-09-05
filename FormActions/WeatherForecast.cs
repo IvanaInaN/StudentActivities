@@ -1,6 +1,6 @@
 using System;
 
-namespace FormActions
+namespace StudentActivities.Web
 {
     public class WeatherForecast
     {

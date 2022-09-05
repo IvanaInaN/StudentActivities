@@ -1,4 +1,4 @@
-﻿namespace FormActions.Structures.Dtos
+﻿namespace StudentActivities.Structures.Dtos
 {
     public class FormDto
     {

@@ -1,4 +1,4 @@
-﻿namespace FormActions.Domain.Models
+﻿namespace StudentActivities.Domain.Models
 {
     public class Form
     {

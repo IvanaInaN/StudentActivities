@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KgFMkRmhcU1S0dobPTRWK3No2MS3dQbyo+W4QMafQ7kCeCGd+MudNQ0Qyw2BAyTbs+/nWHUqrEkKBDcsifGlVg==",
+  "dgSpecHash": "cdskDRIrXbEryvLs4eBmJP6O+CvuB6s0/2iIRu12YMQ+uStOhviw2I/8es4tsEqhiSdEW/sQC2Co5AqmO6BgYw==",
   "success": true,
-  "projectFilePath": "D:\\WorkspaceMaster\\FormActions\\FormActions.Data\\FormActions.Data.csproj",
+  "projectFilePath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.Data\\StudentsActivities.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

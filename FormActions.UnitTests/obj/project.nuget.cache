@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B6/9slZrhpZvycFVwJZ5PUYMBrApHs1XdylNPLPoIpD+CilaB4ozMWj3/C7+afDhy0pR3T8iM8Ckw7r61ZQr1g==",
+  "dgSpecHash": "V40o8be4r+JidUyDr4ONOyJcGb0gIeQOPMRPxDkIrYmyvhhe6jbwCnRjpVK5CvG285KQX3jicg3knS8gU4A1sQ==",
   "success": true,
-  "projectFilePath": "D:\\WorkspaceMaster\\FormActions\\FormActions.UnitTests\\FormActions.UnitTests.csproj",
+  "projectFilePath": "D:\\WorkspaceMaster\\StudentActivities\\FormActions.UnitTests\\StudentActivities.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Korisnik\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Korisnik\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
