@@ -10,11 +10,11 @@ using Xunit;
 
 namespace FormActions.UnitTests.Services.CQRS.Queries
 {
-    public class GetAllFormActionsQueryHandlerTest
+    public class GetAllStudentActionsQueryHandlerTest
     {
         private readonly GetAllStudentActivitiesQueryHandler _handler;
 
-        public GetAllFormActionsQueryHandlerTest()
+        public GetAllStudentActionsQueryHandlerTest()
         {
             _handler = new GetAllStudentActivitiesQueryHandler();
         }

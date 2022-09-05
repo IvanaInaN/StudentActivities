@@ -7,10 +7,10 @@ namespace StudentActivities.Services.CQRS.Commands.DeleteStudentActivityByIdComm
 {
     public class DeleteStudentActivityByIdCommandHandler : IRequestHandler<DeleteStudentActivityByIdCommandRequest, DeleteStudentActivityByIdCommandResponse>
     {
-        private readonly IFormActionRepository _formActionRepository;
+        private readonly IStudentActivityRepository _formActionRepository;
         private readonly IUnitOfWork _unitOfWork;
 
-        public DeleteStudentActivityByIdCommandHandler(IFormActionRepository formActionRepository,
+        public DeleteStudentActivityByIdCommandHandler(IStudentActivityRepository formActionRepository,
             IUnitOfWork unitOfWork)
         {
             _formActionRepository = formActionRepository;

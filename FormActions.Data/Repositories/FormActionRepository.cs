@@ -7,7 +7,7 @@ using StudentActivities.Domain.Repositories;
 
 namespace StudentsActivities.Data.Repositories
 {
-    public class FormActionRepository : IFormActionRepository
+    public class FormActionRepository : IStudentActivityRepository
     {
         private readonly StudentActivityContext _context;
 

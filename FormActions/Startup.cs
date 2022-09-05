@@ -32,7 +32,7 @@ namespace StudentActivities.Web
             services.AddDbContext<StudentActivityContext>(options =>
                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
-            services.AddScoped<IFormActionRepository, FormActionRepository>();
+            services.AddScoped<IStudentActivityRepository, FormActionRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             services.AddAutoMapper(typeof(MapperFormAction));

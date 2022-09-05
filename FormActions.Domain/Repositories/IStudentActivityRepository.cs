@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace StudentActivities.Domain.Repositories
 {
-    public interface IFormActionRepository
+    public interface IStudentActivityRepository
     {
         Task<List<StudentActivity>> GetStudentActivitiesAsync();
         void RemoveById(int studentActivityId);

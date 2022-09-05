@@ -10,13 +10,13 @@ namespace FormActions.UnitTests.Services.CQRS.Commands
 {
     public class DeleteStudentActivitiesByIdCommandHandlerTest
     {
-        private readonly Mock<IFormActionRepository> _formActionRepositoryMock;
+        private readonly Mock<IStudentActivityRepository> _formActionRepositoryMock;
         private readonly Mock<IUnitOfWork> _unitOfWorkMock;
         private readonly DeleteStudentActivityByIdCommandHandler _handler;
 
         public DeleteStudentActivitiesByIdCommandHandlerTest()
         {
-            _formActionRepositoryMock = new Mock<IFormActionRepository>();
+            _formActionRepositoryMock = new Mock<IStudentActivityRepository>();
             _unitOfWorkMock = new Mock<IUnitOfWork>();
             _handler = new DeleteStudentActivityByIdCommandHandler(_formActionRepositoryMock.Object, _unitOfWorkMock.Object);
         }
