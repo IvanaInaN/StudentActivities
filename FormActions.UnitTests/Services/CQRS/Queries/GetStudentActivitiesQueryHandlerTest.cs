@@ -25,7 +25,7 @@ namespace StudentActivities.UnitTests.Services.CQRS.Queries
             var response = await _context.Mediator.Send(request);
 
             // Assert
-            response.Should().BeNull();
+            response.Should().NotBeNull();
         }
 
         [Fact]
