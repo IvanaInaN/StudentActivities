@@ -7,6 +7,7 @@ namespace StudentActivities.Domain.Repositories
     public interface IStudentActivityRepository
     {
         Task<List<StudentActivity>> GetStudentActivitiesAsync();
+        Task<List<StudentActivity>> GetStudentActivitiesByStudentIdAsync(int id);
         void RemoveById(int studentActivityId);
     }
 }

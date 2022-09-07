@@ -6,7 +6,8 @@ using System.Text;
 
 namespace StudentActivities.Services.CQRS.Queries.GetStudentActivitiesQuery
 {
-    public class GetStudentActivitiesQueryRequest : IRequest<StudentActivitiyDto>
+    public class GetStudentActivitiesQueryRequest : IRequest<List<StudentActivitiyDto>>
     {
+        public int StudentId { get; set; }
     }
 }
