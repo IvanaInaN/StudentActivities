@@ -14,3 +14,4 @@ D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\
 D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.csproj.CoreCompileInputs.cache
 D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.dll
 D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.pdb
+D:\WorkspaceMaster\StudentActivities\FormActions.Domain\obj\Debug\netcoreapp3.1\StudentActivities.Domain.csprojAssemblyReference.cache

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using StudentsActivities.Data;
 using StudentActivities.Domain.Repositories;
+using StudentActivities.Domain.Models;
 
 namespace StudentsActivities.Data.Repositories
 {
@@ -31,6 +32,17 @@ namespace StudentsActivities.Data.Repositories
                  .Where(x => x.Student.Active == 1)
                  .Where(x => x.Form.Active == 1)
              .ToListAsync();
+        }
+
+        public async Task<List<StudentActivity>> GetStudentActivitiesByStudentIdAsync(int id)
+        {
+            return await _context.StudentActivities
+                .Include(x => x.Student)
+                .Include(x => x.Form)
+                .Where(x => x.Student.Active == 1)
+                .Where(x => x.Form.Active == 1)
+                .Where(x => x.StudentId == id)
+            .ToListAsync();
         }
     }
 }
