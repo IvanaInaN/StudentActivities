@@ -1,13 +1,9 @@
-D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.csprojAssemblyReference.cache
-D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.AssemblyInfoInputs.cache
-D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.AssemblyInfo.cs
-D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.csproj.CoreCompileInputs.cache
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\testhost.exe
+D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\testhost.dll
+D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\xunit.runner.utility.netcoreapp10.dll
-D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\testhost.dll
-D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\StudentActivities.UnitTests.deps.json
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\StudentActivities.UnitTests.runtimeconfig.json
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\StudentActivities.UnitTests.runtimeconfig.dev.json
@@ -105,6 +101,10 @@ D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\StudentActivities.Domain.pdb
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\StudentActivities.Services.pdb
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\bin\Debug\netcoreapp3.1\StudentActivities.Structures.pdb
+D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.csprojAssemblyReference.cache
+D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.AssemblyInfoInputs.cache
+D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.AssemblyInfo.cs
+D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.csproj.CoreCompileInputs.cache
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.csproj.CopyComplete
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.dll
 D:\WorkspaceMaster\StudentActivities\FormActions.UnitTests\obj\Debug\netcoreapp3.1\StudentActivities.UnitTests.pdb
