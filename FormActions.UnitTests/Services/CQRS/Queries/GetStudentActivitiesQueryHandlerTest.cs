@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
+using StudentActivities.Structures;
 
 namespace StudentActivities.UnitTests.Services.CQRS.Queries
 {
@@ -52,6 +53,30 @@ namespace StudentActivities.UnitTests.Services.CQRS.Queries
             };
 
             response.Should().BeEquivalentTo(expectedResult);
+        }
+
+        [Theory]
+        [InlineData(-3)]
+        public async Task Should_throw_exception_when_studentId_is_not_valid(int studentId)
+        {
+            // Arrange
+            var request = new GetStudentActivitiesQueryRequest
+            {
+                StudentId = studentId
+            };
+
+            var formActions = PrepareDbData();
+
+            _context.FakeStudentActivitiesRepository.SetUp(formActions);
+
+            // Act
+            Func<Task> action = async() => await _context.Mediator.Send(request);
+
+            // Assert
+            var errorMessage = string.Format(Constants.InvalidStudentIdError, studentId);
+
+            await action.Should().ThrowAsync<ArgumentOutOfRangeException>()
+                    .WithMessage(errorMessage);
         }
 
         private static List<StudentActivity> PrepareDbData()

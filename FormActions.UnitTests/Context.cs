@@ -41,9 +41,6 @@ namespace StudentActivities.UnitTests
 
         private IHost CreateHost()
         {
-            // TODO: check wheather CacheService is a shared dependency
-            // TODO: Same sequence for initializing fakes(coaching)
-
             var hostBuilder = Host.CreateDefaultBuilder()
                    .ConfigureServices((_, services) =>
                    {
