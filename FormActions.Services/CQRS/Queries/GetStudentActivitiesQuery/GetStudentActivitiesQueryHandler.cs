@@ -30,7 +30,7 @@ namespace StudentActivities.Services.CQRS.Queries.GetStudentActivitiesQuery
 
             var errorMessage = string.Format(Constants.InvalidStudentIdError, studentId);
 
-            if (studentId < 0)
+            if (studentId <= 0)
             {
                 throw new ArgumentOutOfRangeException("", errorMessage);
             }

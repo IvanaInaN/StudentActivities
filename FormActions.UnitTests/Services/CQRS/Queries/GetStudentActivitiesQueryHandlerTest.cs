@@ -11,6 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Xunit;
 using StudentActivities.Structures;
+using StudentActivities.UnitTests.Data;
 
 namespace StudentActivities.UnitTests.Services.CQRS.Queries
 {
@@ -56,7 +57,7 @@ namespace StudentActivities.UnitTests.Services.CQRS.Queries
         }
 
         [Theory]
-        [InlineData(-3)]
+        [ClassData(typeof(NumberValidationData))]
         public async Task Should_throw_exception_when_studentId_is_not_valid(int studentId)
         {
             // Arrange
