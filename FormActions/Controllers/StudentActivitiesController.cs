@@ -2,6 +2,10 @@
 using Microsoft.AspNetCore.Mvc;
 using StudentActivities.Services.CQRS.Commands.DeleteStudentActivityByIdCommand;
 using StudentActivities.Services.CQRS.Queries.GetAllFormActionsQuery;
+using StudentActivities.Services.CQRS.Queries.GetStudentActivitiesQuery;
+using StudentActivities.Structures.Dtos;
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace StudentActivities.Web.Controllers
@@ -23,6 +27,28 @@ namespace StudentActivities.Web.Controllers
         {
             var request = new GetAllStudentActivitiesQueryRequest();
             var result = await _mediator.Send(request);
+            return Ok(result);
+        }
+        
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetStudentActivitiesByStudentId(int id)
+        {
+            var request = new GetStudentActivitiesQueryRequest()
+            {
+                StudentId = id
+            };
+
+            List<StudentActivitiyDto> result;
+
+            try
+            {
+                result = await _mediator.Send(request);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
             return Ok(result);
         }
 

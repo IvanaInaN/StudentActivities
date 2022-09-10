@@ -6,6 +6,7 @@ using StudentActivities.Structures;
 using StudentActivities.Structures.Dtos;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -30,16 +31,27 @@ namespace StudentActivities.Services.CQRS.Queries.GetStudentActivitiesQuery
 
             var errorMessage = string.Format(Constants.InvalidStudentIdError, studentId);
 
-            if (studentId <= 0)
-            {
-                throw new ArgumentOutOfRangeException("", errorMessage);
-            }
+            var shouldThrowArgumentOutOfRangeException = studentId <= 0;
+
+            ValidateStudentId(shouldThrowArgumentOutOfRangeException, errorMessage);
 
             var result = await _studentActivityRepository.GetStudentActivitiesByStudentIdAsync(request.StudentId);
 
             var studentActivities = _mapper.Map<List<StudentActivity>, List<StudentActivitiyDto>>(result);
 
+            shouldThrowArgumentOutOfRangeException = !studentActivities.Any();
+
+            ValidateStudentId(shouldThrowArgumentOutOfRangeException, errorMessage);
+
             return studentActivities;
+        }
+
+        private static void ValidateStudentId(bool invalidStudentId, string errorMessage)
+        {
+            if (invalidStudentId)
+            {
+                throw new ArgumentOutOfRangeException("", errorMessage);
+            }
         }
     }
 }

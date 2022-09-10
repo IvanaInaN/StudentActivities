@@ -18,19 +18,6 @@ namespace StudentActivities.UnitTests.Services.CQRS.Queries
     public class GetStudentActivitiesQueryHandlerTest : BaseTest
     {
         [Fact]
-        public async Task Nothing()
-        {
-            // Arrange
-            var request = new GetStudentActivitiesQueryRequest();
-
-            // Act
-            var response = await _context.Mediator.Send(request);
-
-            // Assert
-            response.Should().NotBeNull();
-        }
-
-        [Fact]
         public async Task Should_return_student_activities_by_studentId()
         {
             // Arrange
@@ -80,6 +67,30 @@ namespace StudentActivities.UnitTests.Services.CQRS.Queries
                     .WithMessage(errorMessage);
         }
 
+        [Fact]
+        public async Task Should_throw_exception_when_studentId_does_not_exist()
+        {
+            // Arrange
+            var formActions = PrepareDbData();
+            var studentId = 76;
+
+            var request = new GetStudentActivitiesQueryRequest
+            {
+                StudentId = studentId
+            };
+
+            _context.FakeStudentActivitiesRepository.SetUp(formActions);
+
+            // Act
+            Func<Task> action = async () => await _context.Mediator.Send(request);
+
+            // Assert
+            var errorMessage = string.Format(Constants.InvalidStudentIdError, studentId);
+
+            await action.Should().ThrowAsync<ArgumentOutOfRangeException>()
+                    .WithMessage(errorMessage);
+        }
+
         private static List<StudentActivity> PrepareDbData()
         {
             return new List<StudentActivity>
@@ -108,7 +119,7 @@ namespace StudentActivities.UnitTests.Services.CQRS.Queries
                     },
                     Id = 31
                 }
-        };
+            };
         }
 
         private StudentActivitiyDto PrepareExpectedStudentActivities()
