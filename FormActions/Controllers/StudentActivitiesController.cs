@@ -5,6 +5,7 @@ using StudentActivities.Services.CQRS.Commands.AddStudentActivityCommand;
 using StudentActivities.Services.CQRS.Commands.AddStudentCommand;
 using StudentActivities.Services.CQRS.Commands.DeleteStudentActivityByIdCommand;
 using StudentActivities.Services.CQRS.Queries.GetAllFormActionsQuery;
+using StudentActivities.Services.CQRS.Queries.GetAllStudentQuery;
 using StudentActivities.Services.CQRS.Queries.GetStudentActivitiesQuery;
 using StudentActivities.Structures.Dtos;
 using System;
@@ -32,7 +33,16 @@ namespace StudentActivities.Web.Controllers
             var result = await _mediator.Send(request);
             return Ok(result);
         }
-        
+
+        [HttpGet()]
+        [Route("GetAllAtudents")]
+        public async Task<IActionResult> GetStudentss()
+        {
+            var request = new GetAllStudentQueryRequest();
+            var result = await _mediator.Send(request);
+            return Ok(result);
+        }
+
         [HttpGet("{id}")]
         public async Task<IActionResult> GetStudentActivitiesByStudentId(int id)
         {
