@@ -1,5 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using StudentActivities.Services.CQRS.Commands.AddFormCommand;
+using StudentActivities.Services.CQRS.Commands.AddStudentActivityCommand;
+using StudentActivities.Services.CQRS.Commands.AddStudentCommand;
 using StudentActivities.Services.CQRS.Commands.DeleteStudentActivityByIdCommand;
 using StudentActivities.Services.CQRS.Queries.GetAllFormActionsQuery;
 using StudentActivities.Services.CQRS.Queries.GetStudentActivitiesQuery;
@@ -51,6 +54,55 @@ namespace StudentActivities.Web.Controllers
 
             return Ok(result);
         }
+
+        [HttpPost]
+        [Route("add-new-student")]
+        public async Task<IActionResult> AddNewStudent(AddStudentCommandRequest request)
+        {
+            try
+            {
+                var result = await _mediator.Send(request);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("add-new-form")]
+        public async Task<IActionResult> AddNewForm(AddFormCommandRequest request)
+        {
+            try
+            {
+                var result = await _mediator.Send(request);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+            return Ok();
+        }
+
+        [HttpPost]
+        [Route("add-new-form")]
+        public async Task<IActionResult> AddNewStudentActivity(AddStudentActivityCommandRequest request)
+        {
+            try
+            {
+                var result = await _mediator.Send(request);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+
+            return Ok();
+        }
+
 
         // DELETE api/Student/5
         [HttpDelete("{id}")]

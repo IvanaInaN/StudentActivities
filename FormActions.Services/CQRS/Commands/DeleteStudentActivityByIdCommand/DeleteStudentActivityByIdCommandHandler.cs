@@ -23,7 +23,7 @@ namespace StudentActivities.Services.CQRS.Commands.DeleteStudentActivityByIdComm
 
             _formActionRepository.RemoveById(formAcrtionId);
 
-            //await _unitOfWork.SaveChangesAsync();
+            await _unitOfWork.SaveChangesAsync();
 
 
             return new DeleteStudentActivityByIdCommandResponse();

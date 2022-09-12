@@ -9,5 +9,10 @@ namespace StudentActivities.Domain.Repositories
         Task<List<StudentActivity>> GetStudentActivitiesAsync();
         Task<List<StudentActivity>> GetStudentActivitiesByStudentIdAsync(int id);
         void RemoveById(int studentActivityId);
+        Task AddStudent(string name, string city, string street, string email, string phone);
+        Task AddStudentActivity(string activity, int formId, int studentId);
+        Task AddForm(string name);
+        Task<List<Form>> GetFormsAsync();
+        Task<List<Student>> GetStudentsAsync();
     }
 }
