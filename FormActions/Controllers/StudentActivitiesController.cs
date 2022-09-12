@@ -35,7 +35,7 @@ namespace StudentActivities.Web.Controllers
         }
 
         [HttpGet()]
-        [Route("GetAllAtudents")]
+        [Route("GetAllStudents")]
         public async Task<IActionResult> GetStudentss()
         {
             var request = new GetAllStudentQueryRequest();
@@ -98,7 +98,7 @@ namespace StudentActivities.Web.Controllers
         }
 
         [HttpPost]
-        [Route("add-new-form")]
+        [Route("add-new-student-activity")]
         public async Task<IActionResult> AddNewStudentActivity(AddStudentActivityCommandRequest request)
         {
             try
